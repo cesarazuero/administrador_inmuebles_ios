@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DBAB7AB63075301E00AE58E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBAB7A9E3075301C00AE58E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBAB7AA53075301D00AE58E0;
+			remoteInfo = "Administrador Inmuebles";
+		};
+		DBAB7AC03075301E00AE58E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBAB7A9E3075301C00AE58E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBAB7AA53075301D00AE58E0;
+			remoteInfo = "Administrador Inmuebles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB16055A30A3CFA0006E9320 /* Administrador-Inmuebles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Administrador-Inmuebles-Info.plist"; sourceTree = "<group>"; };
+		DBAB7AA63075301D00AE58E0 /* Administrador Inmuebles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Administrador Inmuebles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAB7AB53075301E00AE58E0 /* Administrador InmueblesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Administrador InmueblesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAB7ABF3075301E00AE58E0 /* Administrador InmueblesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Administrador InmueblesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DB1604EE3094E5D4006E9320 /* Exceptions for "Administrador Inmuebles" folder in "Administrador InmueblesTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ListaBancos.json,
+			);
+			target = DBAB7AB43075301E00AE58E0 /* Administrador InmueblesTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		DB160500309509A9006E9320 /* Exceptions for "Administrador Inmuebles" folder in "Compile Sources" phase from "Administrador Inmuebles" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = DBAB7AA23075301D00AE58E0 /* Sources */;
+			membershipExceptions = (
+				ListaBancos.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DBAB7AA83075301D00AE58E0 /* Administrador Inmuebles */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DB160500309509A9006E9320 /* Exceptions for "Administrador Inmuebles" folder in "Compile Sources" phase from "Administrador Inmuebles" target */,
+				DB1604EE3094E5D4006E9320 /* Exceptions for "Administrador Inmuebles" folder in "Administrador InmueblesTests" target */,
+			);
+			path = "Administrador Inmuebles";
+			sourceTree = "<group>";
+		};
+		DBAB7AB83075301E00AE58E0 /* Administrador InmueblesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Administrador InmueblesTests";
+			sourceTree = "<group>";
+		};
+		DBAB7AC23075301E00AE58E0 /* Administrador InmueblesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Administrador InmueblesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBAB7AA33075301D00AE58E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		DBAB7AB23075301E00AE58E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		DBAB7ABC3075301E00AE58E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBAB7A9D3075301C00AE58E0 = {
+			isa = PBXGroup;
+			children = (
+				DB16055A30A3CFA0006E9320 /* Administrador-Inmuebles-Info.plist */,
+				DBAB7AA83075301D00AE58E0 /* Administrador Inmuebles */,
+				DBAB7AB83075301E00AE58E0 /* Administrador InmueblesTests */,
+				DBAB7AC23075301E00AE58E0 /* Administrador InmueblesUITests */,
+				DBAB7AA73075301D00AE58E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBAB7AA73075301D00AE58E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBAB7AA63075301D00AE58E0 /* Administrador Inmuebles.app */,
+				DBAB7AB53075301E00AE58E0 /* Administrador InmueblesTests.xctest */,
+				DBAB7ABF3075301E00AE58E0 /* Administrador InmueblesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBAB7AA53075301D00AE58E0 /* Administrador Inmuebles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAB7AC73075301E00AE58E0 /* Build configuration list for PBXNativeTarget "Administrador Inmuebles" */;
+			buildPhases = (
+				DBAB7AA23075301D00AE58E0 /* Sources */,
+				DBAB7AA33075301D00AE58E0 /* Frameworks */,
+				DBAB7AA43075301D00AE58E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				DBAB7AA83075301D00AE58E0 /* Administrador Inmuebles */,
+			);
+			name = "Administrador Inmuebles";
+			productName = "Administrador Inmuebles";
+			productReference = DBAB7AA63075301D00AE58E0 /* Administrador Inmuebles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBAB7AB43075301E00AE58E0 /* Administrador InmueblesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAB7ACA3075301E00AE58E0 /* Build configuration list for PBXNativeTarget "Administrador InmueblesTests" */;
+			buildPhases = (
+				DBAB7AB13075301E00AE58E0 /* Sources */,
+				DBAB7AB23075301E00AE58E0 /* Frameworks */,
+				DBAB7AB33075301E00AE58E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBAB7AB73075301E00AE58E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBAB7AB83075301E00AE58E0 /* Administrador InmueblesTests */,
+			);
+			name = "Administrador InmueblesTests";
+			productName = "Administrador InmueblesTests";
+			productReference = DBAB7AB53075301E00AE58E0 /* Administrador InmueblesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBAB7ABE3075301E00AE58E0 /* Administrador InmueblesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAB7ACD3075301E00AE58E0 /* Build configuration list for PBXNativeTarget "Administrador InmueblesUITests" */;
+			buildPhases = (
+				DBAB7ABB3075301E00AE58E0 /* Sources */,
+				DBAB7ABC3075301E00AE58E0 /* Frameworks */,
+				DBAB7ABD3075301E00AE58E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBAB7AC13075301E00AE58E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBAB7AC23075301E00AE58E0 /* Administrador InmueblesUITests */,
+			);
+			name = "Administrador InmueblesUITests";
+			productName = "Administrador InmueblesUITests";
+			productReference = DBAB7ABF3075301E00AE58E0 /* Administrador InmueblesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBAB7A9E3075301C00AE58E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					DBAB7AA53075301D00AE58E0 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					DBAB7AB43075301E00AE58E0 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = DBAB7AA53075301D00AE58E0;
+					};
+					DBAB7ABE3075301E00AE58E0 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = DBAB7AA53075301D00AE58E0;
+					};
+				};
+			};
+			buildConfigurationList = DBAB7AA13075301C00AE58E0 /* Build configuration list for PBXProject "Administrador Inmuebles" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = DBAB7A9D3075301C00AE58E0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DBAB7AA73075301D00AE58E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBAB7AA53075301D00AE58E0 /* Administrador Inmuebles */,
+				DBAB7AB43075301E00AE58E0 /* Administrador InmueblesTests */,
+				DBAB7ABE3075301E00AE58E0 /* Administrador InmueblesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBAB7AA43075301D00AE58E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		DBAB7AB33075301E00AE58E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		DBAB7ABD3075301E00AE58E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBAB7AA23075301D00AE58E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		DBAB7AB13075301E00AE58E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		DBAB7ABB3075301E00AE58E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBAB7AB73075301E00AE58E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBAB7AA53075301D00AE58E0 /* Administrador Inmuebles */;
+			targetProxy = DBAB7AB63075301E00AE58E0 /* PBXContainerItemProxy */;
+		};
+		DBAB7AC13075301E00AE58E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBAB7AA53075301D00AE58E0 /* Administrador Inmuebles */;
+			targetProxy = DBAB7AC03075301E00AE58E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBAB7AC53075301E00AE58E0 /* Debug configuration for PBXProject "Administrador Inmuebles" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NW7U5679W8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBAB7AC63075301E00AE58E0 /* Release configuration for PBXProject "Administrador Inmuebles" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NW7U5679W8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBAB7AC83075301E00AE58E0 /* Debug configuration for PBXNativeTarget "Administrador Inmuebles" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW7U5679W8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Administrador-Inmuebles-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pedimos acceso a la cámara para que pueda adjuntar fotos a los daños.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Necesitamos acceso para guardar las evidencias fotográficas de los daños en tu galería.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cesar.Administrador-Inmuebles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBAB7AC93075301E00AE58E0 /* Release configuration for PBXNativeTarget "Administrador Inmuebles" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW7U5679W8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Administrador-Inmuebles-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pedimos acceso a la cámara para que pueda adjuntar fotos a los daños.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Necesitamos acceso para guardar las evidencias fotográficas de los daños en tu galería.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cesar.Administrador-Inmuebles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBAB7ACB3075301E00AE58E0 /* Debug configuration for PBXNativeTarget "Administrador InmueblesTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW7U5679W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cesar.Administrador-InmueblesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Administrador Inmuebles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Administrador Inmuebles";
+			};
+			name = Debug;
+		};
+		DBAB7ACC3075301E00AE58E0 /* Release configuration for PBXNativeTarget "Administrador InmueblesTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW7U5679W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cesar.Administrador-InmueblesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Administrador Inmuebles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Administrador Inmuebles";
+			};
+			name = Release;
+		};
+		DBAB7ACE3075301E00AE58E0 /* Debug configuration for PBXNativeTarget "Administrador InmueblesUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW7U5679W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cesar.Administrador-InmueblesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Administrador Inmuebles";
+			};
+			name = Debug;
+		};
+		DBAB7ACF3075301E00AE58E0 /* Release configuration for PBXNativeTarget "Administrador InmueblesUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW7U5679W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cesar.Administrador-InmueblesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Administrador Inmuebles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBAB7AA13075301C00AE58E0 /* Build configuration list for PBXProject "Administrador Inmuebles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAB7AC53075301E00AE58E0 /* Debug configuration for PBXProject "Administrador Inmuebles" */,
+				DBAB7AC63075301E00AE58E0 /* Release configuration for PBXProject "Administrador Inmuebles" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		DBAB7AC73075301E00AE58E0 /* Build configuration list for PBXNativeTarget "Administrador Inmuebles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAB7AC83075301E00AE58E0 /* Debug configuration for PBXNativeTarget "Administrador Inmuebles" */,
+				DBAB7AC93075301E00AE58E0 /* Release configuration for PBXNativeTarget "Administrador Inmuebles" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		DBAB7ACA3075301E00AE58E0 /* Build configuration list for PBXNativeTarget "Administrador InmueblesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAB7ACB3075301E00AE58E0 /* Debug configuration for PBXNativeTarget "Administrador InmueblesTests" */,
+				DBAB7ACC3075301E00AE58E0 /* Release configuration for PBXNativeTarget "Administrador InmueblesTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		DBAB7ACD3075301E00AE58E0 /* Build configuration list for PBXNativeTarget "Administrador InmueblesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAB7ACE3075301E00AE58E0 /* Debug configuration for PBXNativeTarget "Administrador InmueblesUITests" */,
+				DBAB7ACF3075301E00AE58E0 /* Release configuration for PBXNativeTarget "Administrador InmueblesUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBAB7A9E3075301C00AE58E0 /* Project object */;
+	validationLevel = 1;
+}

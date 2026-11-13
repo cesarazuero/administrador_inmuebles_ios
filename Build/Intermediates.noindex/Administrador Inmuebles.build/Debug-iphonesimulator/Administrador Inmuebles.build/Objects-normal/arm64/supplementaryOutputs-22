@@ -1,0 +1,44 @@
+{
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Data/Models/DamageModel.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DamageModel.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DamageModel.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DamageModel.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DamageModel.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DamageModel.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Data/Models/EstateModel.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/EstateModel.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/EstateModel.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/EstateModel.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/EstateModel.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/EstateModel.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Data/Models/HabitationalUnitModel.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/HabitationalUnitModel.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/HabitationalUnitModel.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/HabitationalUnitModel.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/HabitationalUnitModel.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/HabitationalUnitModel.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Data/Models/NotificationsModel.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/NotificationsModel.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/NotificationsModel.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/NotificationsModel.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/NotificationsModel.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/NotificationsModel.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Data/Models/PaymentModel.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/PaymentModel.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/PaymentModel.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/PaymentModel.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/PaymentModel.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/PaymentModel.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Enums/ProcessingStatus.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/ProcessingStatus.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/ProcessingStatus.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/ProcessingStatus.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/ProcessingStatus.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/ProcessingStatus.swiftdeps"
+  }
+}

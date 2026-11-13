@@ -1,0 +1,40 @@
+{
+  "source": "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Enums/ProcessingStatus.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "save",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "processing",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "saved",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "error",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 22
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,24 @@
+{
+  "source": "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/CreateTenant/CreateTenantViewModel.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "data_missing_title",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "data_missing_message",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 37
+        }
+      }
+    ]
+  },
+  "version": 1
+}

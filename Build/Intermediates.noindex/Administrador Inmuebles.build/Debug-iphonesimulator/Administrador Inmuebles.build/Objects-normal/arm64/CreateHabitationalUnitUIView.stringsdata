@@ -1,0 +1,32 @@
+{
+  "source": "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/CreateHabitationalUnit/CreateHabitationalUnitUIView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "unasigned",
+        "location": {
+          "startingColumn": 91,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "0.00",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 183
+        }
+      }
+    ]
+  },
+  "version": 1
+}

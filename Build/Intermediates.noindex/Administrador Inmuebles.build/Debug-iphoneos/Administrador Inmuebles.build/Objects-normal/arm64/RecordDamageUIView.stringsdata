@@ -1,0 +1,16 @@
+{
+  "source": "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/RecordDamage/RecordDamageUIView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "reported_by",
+        "location": {
+          "startingColumn": 83,
+          "startingLine": 81
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,30 @@
+{
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Data/Mappers/PaymentMapper.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/PaymentMapper.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/PaymentMapper.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/PaymentMapper.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/PaymentMapper.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/PaymentMapper.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Enums/Destination.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/Destination.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/Destination.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/Destination.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/Destination.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/Destination.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Components/ImagePicker.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/ImagePicker.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/ImagePicker.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/ImagePicker.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/ImagePicker.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/ImagePicker.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/CreateEstate/CreateEstateViewModel.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateEstateViewModel.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateEstateViewModel.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateEstateViewModel.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateEstateViewModel.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateEstateViewModel.swiftdeps"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/DetailEstate/DetailEstateUIView.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DetailEstateUIView.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DetailEstateUIView.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DetailEstateUIView.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DetailEstateUIView.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DetailEstateUIView.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/DetailEstate/DetailEstateViewModel.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DetailEstateViewModel.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DetailEstateViewModel.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DetailEstateViewModel.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DetailEstateViewModel.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/DetailEstateViewModel.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/RecordDamage/RecordDamageUIView.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/RecordDamageUIView.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/RecordDamageUIView.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/RecordDamageUIView.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/RecordDamageUIView.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphonesimulator/Administrador Inmuebles.build/Objects-normal/arm64/RecordDamageUIView.swiftdeps"
+  }
+}

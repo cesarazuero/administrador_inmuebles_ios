@@ -1,0 +1,23 @@
+{
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Domain/UseCases/Implementations/SavePaymentUseCase.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/SavePaymentUseCase.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/SavePaymentUseCase.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/SavePaymentUseCase.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/SavePaymentUseCase.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/SavePaymentUseCase.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/CreateHabitationalUnit/CreateHabitationalUnitViewModel.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateHabitationalUnitViewModel.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateHabitationalUnitViewModel.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateHabitationalUnitViewModel.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateHabitationalUnitViewModel.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateHabitationalUnitViewModel.swiftdeps"
+  },
+  "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/CreateTenant/CreateTenantViewModel.swift" : {
+    "const-values" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateTenantViewModel.swiftconstvalues",
+    "dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateTenantViewModel.d",
+    "diagnostics" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateTenantViewModel.dia",
+    "object" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateTenantViewModel.o",
+    "swift-dependencies" : "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Build/Intermediates.noindex/Administrador Inmuebles.build/Debug-iphoneos/Administrador Inmuebles.build/Objects-normal/arm64/CreateTenantViewModel.swiftdeps"
+  }
+}

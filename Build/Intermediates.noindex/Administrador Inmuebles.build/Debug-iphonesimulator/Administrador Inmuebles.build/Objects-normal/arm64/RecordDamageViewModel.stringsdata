@@ -1,0 +1,56 @@
+{
+  "source": "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/RecordDamage/RecordDamageViewModel.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "other",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "other",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "other",
+        "location": {
+          "startingColumn": 70,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "error",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "error_saving_estate",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 122
+        }
+      },
+      {
+        "comment": "",
+        "key": "please_try_again",
+        "location": {
+          "startingColumn": 94,
+          "startingLine": 122
+        }
+      }
+    ]
+  },
+  "version": 1
+}

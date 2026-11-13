@@ -1,0 +1,80 @@
+{
+  "source": "/Volumes/ORICO/Documentos/Administrador Inmuebles/Administrador Inmuebles/Administrador Inmuebles/Presentation/Screens/CreateEstate/CreateEstateViewModel.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "data_missing_title",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "data_missing_message",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "error",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "error_saving_estate",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "please_try_again",
+        "location": {
+          "startingColumn": 94,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "estate_manager",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "due_date_energy_is_today",
+        "location": {
+          "startingColumn": 98,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "due_date_water_is_today",
+        "location": {
+          "startingColumn": 98,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "due_date_gas_is_today",
+        "location": {
+          "startingColumn": 98,
+          "startingLine": 86
+        }
+      }
+    ]
+  },
+  "version": 1
+}

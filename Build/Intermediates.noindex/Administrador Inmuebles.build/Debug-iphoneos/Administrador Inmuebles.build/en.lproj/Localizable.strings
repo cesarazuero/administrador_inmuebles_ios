@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accept</key>
+	<string>Accept</string>
+	<key>add</key>
+	<string>Add</string>
+	<key>address</key>
+	<string>Address</string>
+	<key>amount</key>
+	<string>Amount</string>
+	<key>bank</key>
+	<string>Bank</string>
+	<key>calculate_fee</key>
+	<string>Calculate fee</string>
+	<key>calculate_fee_error_meters_not_enough</key>
+	<string>No enough readings to calculate fee.</string>
+	<key>call_tenant</key>
+	<string>Call tenant</string>
+	<key>cancel</key>
+	<string>Cancel</string>
+	<key>cedula</key>
+	<string>Cedula</string>
+	<key>cedula_extranjeria</key>
+	<string>Cédula de Extranjería</string>
+	<key>characters</key>
+	<string>characters</string>
+	<key>close</key>
+	<string>Close</string>
+	<key>contact</key>
+	<string>Contact</string>
+	<key>create</key>
+	<string>Create</string>
+	<key>create_first_estate</key>
+	<string>Create your first estate</string>
+	<key>damage_date</key>
+	<string>Damage date</string>
+	<key>damage_description</key>
+	<string>Damage description</string>
+	<key>damage_state_created</key>
+	<string>Created</string>
+	<key>damage_state_fixed</key>
+	<string>Fixed</string>
+	<key>damage_state_in_progress</key>
+	<string>In progress</string>
+	<key>damage_state_waiting_response</key>
+	<string>Waiting response</string>
+	<key>damages</key>
+	<string>Damages</string>
+	<key>data_missing_message</key>
+	<string>You cannot leave empty fields</string>
+	<key>data_missing_title</key>
+	<string>Data missing</string>
+	<key>date_start_lease</key>
+	<string>Date Start Lease</string>
+	<key>day</key>
+	<string>Day</string>
+	<key>delete_photo</key>
+	<string>Are you sure you want to delete this photo?</string>
+	<key>due_date_energy</key>
+	<string>Due Date Energy</string>
+	<key>due_date_energy_is_today</key>
+	<string>Energy due date is today !!!!</string>
+	<key>due_date_gas</key>
+	<string>Due Date Gas</string>
+	<key>due_date_gas_is_today</key>
+	<string>Gas due date is today !!!!!</string>
+	<key>due_date_water</key>
+	<string>Due Date Water</string>
+	<key>due_date_water_is_today</key>
+	<string>Water due date is today !!!!!</string>
+	<key>due_day_energy</key>
+	<string>Due day energy</string>
+	<key>due_day_gas</key>
+	<string>Due day gas</string>
+	<key>due_day_water</key>
+	<string>Due day water</string>
+	<key>edit</key>
+	<string>Edit</string>
+	<key>eliminate</key>
+	<string>Eliminate</string>
+	<key>email</key>
+	<string>Email</string>
+	<key>energy</key>
+	<string>Energy</string>
+	<key>enter_body</key>
+	<string>Enter body</string>
+	<key>enter_subject</key>
+	<string>Enter the subject</string>
+	<key>error</key>
+	<string>Error</string>
+	<key>error_saving_estate</key>
+	<string>An error has occurred trying saving estate.</string>
+	<key>estate_manager</key>
+	<string>Estate Manager</string>
+	<key>gas</key>
+	<string>Gas</string>
+	<key>habitational_unit</key>
+	<string>Habitational Unit</string>
+	<key>habitational_units</key>
+	<string>Habitational Units</string>
+	<key>historical_record</key>
+	<string>Historical record</string>
+	<key>identification</key>
+	<string>Identification</string>
+	<key>identification_type</key>
+	<string>Identification Type</string>
+	<key>invalid_date_energy_due_date</key>
+	<string>The date for the energy due date is invalid.</string>
+	<key>invalid_date_gas_due_date</key>
+	<string>The date for the gas due date is invalid.</string>
+	<key>invalid_date_water_due_date</key>
+	<string>The date for the water due date is invalid.</string>
+	<key>lease</key>
+	<string>Lease</string>
+	<key>lease_payment</key>
+	<string>Lease Payment</string>
+	<key>max</key>
+	<string>Max.</string>
+	<key>message_delete_photo</key>
+	<string>This action will delete the photo permanently from your device.</string>
+	<key>message_error_calling</key>
+	<string>This device is not able to make calls.</string>
+	<key>message_error_email</key>
+	<string>An error has occurred sending email.</string>
+	<key>message_error_whatsapp</key>
+	<string>WhatsApp is not available to send messages.</string>
+	<key>month</key>
+	<string>Month</string>
+	<key>my_estates</key>
+	<string>My Estates</string>
+	<key>name</key>
+	<string>Name</string>
+	<key>new</key>
+	<string>New</string>
+	<key>no_damages_registered</key>
+	<string>No damages registered.</string>
+	<key>no_document_attached</key>
+	<string>No document attached</string>
+	<key>no_estate_created</key>
+	<string>No estates created yet</string>
+	<key>no_payments_registered</key>
+	<string>No payments registered.</string>
+	<key>no_readings</key>
+	<string>No readings.</string>
+	<key>no_readings_for</key>
+	<string>No readings for</string>
+	<key>notifications</key>
+	<string>Notifications</string>
+	<key>notifications_for_energy</key>
+	<string>Due date for energy</string>
+	<key>notifications_for_gas</key>
+	<string>Due date for gas</string>
+	<key>notifications_for_water</key>
+	<string>Due date for water</string>
+	<key>notifications_show</key>
+	<string>Show notifications</string>
+	<key>other</key>
+	<string>Other</string>
+	<key>paid_by</key>
+	<string>Paid by</string>
+	<key>passport</key>
+	<string>Passport</string>
+	<key>payment_date</key>
+	<string>Payment date</string>
+	<key>payments</key>
+	<string>Payments</string>
+	<key>pdf_document</key>
+	<string>PDF document</string>
+	<key>phoneNumber</key>
+	<string>Phone number</string>
+	<key>photos</key>
+	<string>Photos</string>
+	<key>please_try_again</key>
+	<string>Please try again.</string>
+	<key>processing</key>
+	<string>Procesando</string>
+	<key>public_service</key>
+	<string>Public service</string>
+	<key>public_services</key>
+	<string>Public services</string>
+	<key>reading</key>
+	<string>Measuring</string>
+	<key>readings</key>
+	<string>Readings</string>
+	<key>register_damage</key>
+	<string>Register Damage</string>
+	<key>register_energy</key>
+	<string>Register energy</string>
+	<key>register_gas</key>
+	<string>Register gas</string>
+	<key>register_payment</key>
+	<string>Register Payment</string>
+	<key>register_reading</key>
+	<string>Register measure</string>
+	<key>register_water</key>
+	<string>Register water</string>
+	<key>reported_by</key>
+	<string>Reported by</string>
+	<key>save</key>
+	<string>Save</string>
+	<key>saved</key>
+	<string>Saved</string>
+	<key>select</key>
+	<string>Select</string>
+	<key>send_email_tenant</key>
+	<string>Send email to tenant</string>
+	<key>send_whatsapp_tenant</key>
+	<string>Send message by WhatsApp</string>
+	<key>settings</key>
+	<string>Settings</string>
+	<key>start_contract_date</key>
+	<string>Start contract date</string>
+	<key>status</key>
+	<string>Status</string>
+	<key>tenant</key>
+	<string>Tenant</string>
+	<key>title_error_calling</key>
+	<string>Error at calling</string>
+	<key>title_error_email</key>
+	<string>Error at mailing</string>
+	<key>title_error_whatsapp</key>
+	<string>Error at whatsapp</string>
+	<key>unasigned</key>
+	<string>Unasigned</string>
+	<key>water</key>
+	<string>Water</string>
+</dict>
+</plist>
