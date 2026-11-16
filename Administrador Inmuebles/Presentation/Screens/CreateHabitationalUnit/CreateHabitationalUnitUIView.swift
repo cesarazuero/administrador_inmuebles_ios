@@ -62,13 +62,14 @@ struct CreateHabitationalUnitUIView: View {
                 }
                 // MARK: --------------- DATE BEGIN RENT ---------------------------
                 Section {
-                    DatePicker(.select,
-                               selection: $viewModel.habitationalUnit.dateBeginRent,
-                               displayedComponents: [.date]
-                    )
-                    .datePickerStyle(.compact)
-                    .tint(.accentColor)
-                    .padding()
+                    HStack {
+                        Text(.select)
+                            .font(.system(size: 16, weight: .regular, design: .rounded))
+                        
+                        Spacer()
+                        
+                        CustomCompactDatePickerUIView(selectedDate: $viewModel.habitationalUnit.dateBeginRent)
+                    }
                 } header: {
                     HeaderTextUIView(text: .startContractDate)
                 }

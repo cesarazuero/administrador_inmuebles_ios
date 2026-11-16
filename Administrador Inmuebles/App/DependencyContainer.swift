@@ -144,6 +144,10 @@ final class DependencyContainer {
     func createMeterCaptureViewModel() -> MeterCaptureViewModel {
         MeterCaptureViewModel(saveMeterUseCase: saveMeterCaptureUseCase)
     }
+    
+    func createFeeCalculationViewModel() -> FeeCalculationViewModel {
+        FeeCalculationViewModel()
+    }
     // MARK: -------------- ESTATE MODIFIERS ------------------------------
     func clearEstate() {
         estate = Estate()
@@ -198,7 +202,8 @@ final class DependencyContainer {
         case .detailHabitationalUnit(let huId):
             Screen(kind: .detailHabitationalUnit(huId: huId,
                                                  viewModel: createDetailHabitationalUnitViewModel(huId: huId),
-                                                 meterCaptureViewModel: createMeterCaptureViewModel()))
+                                                 meterCaptureViewModel: createMeterCaptureViewModel(),
+                                                 feeCalculationViewModel: createFeeCalculationViewModel()))
         case .settings:
             Screen(kind: .settings(createSettingsViewModel()))
         }

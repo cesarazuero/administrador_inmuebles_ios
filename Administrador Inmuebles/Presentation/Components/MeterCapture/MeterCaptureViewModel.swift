@@ -49,5 +49,6 @@ final class MeterCaptureViewModel {
     func clearAll() {
         measure = ""
         processing = .noProcessing
+        dateSelected = Date()
     }
 }

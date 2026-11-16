@@ -60,13 +60,14 @@ struct RecordDamageUIView: View {
                     }
                     // MARK: --------------- DAMAGE DATE ---------------------------
                     Section {
-                        DatePicker(.select,
-                                   selection: $viewModel.created_at,
-                                   displayedComponents: [.date]
-                        )
-                        .datePickerStyle(.compact)
-                        .tint(.accentColor)
-                        .padding()
+                        HStack {
+                            Text(.select)
+                                .font(.system(size: 16, weight: .regular, design: .rounded))
+                            
+                            Spacer()
+                            
+                            CustomCompactDatePickerUIView(selectedDate: $viewModel.created_at)
+                        }
                     } header: {
                         HeaderTextUIView(text: .damageDate)
                     }

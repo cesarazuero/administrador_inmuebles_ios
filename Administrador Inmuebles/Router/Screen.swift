@@ -16,7 +16,10 @@ struct Screen: Hashable {
         case createHabitationalUnit(CreateHabitationalUnitViewModel)
         case createTenant(CreateTenantViewModel)
         case detailEstate(DetailEstateViewModel, MeterCaptureViewModel)
-        case detailHabitationalUnit(huId: String, viewModel: DetailHabitationalUnitViewModel, meterCaptureViewModel: MeterCaptureViewModel)
+        case detailHabitationalUnit(huId: String,
+                                    viewModel: DetailHabitationalUnitViewModel,
+                                    meterCaptureViewModel: MeterCaptureViewModel,
+                                    feeCalculationViewModel: FeeCalculationViewModel)
         case settings(SettingsViewModel)
     }
 

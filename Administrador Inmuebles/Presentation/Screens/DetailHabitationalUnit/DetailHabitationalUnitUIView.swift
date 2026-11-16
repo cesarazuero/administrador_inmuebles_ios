@@ -15,16 +15,21 @@ struct DetailHabitationalUnitUIView: View {
     @State private var emailSender = EmailSender()
     @State private var whatsAppSender = WhatsAppSender()
     @State private var meterCaptureViewModel: MeterCaptureViewModel
+    @State private var feeCalculationViewModel: FeeCalculationViewModel
     @State private var gasContainerCollapsed = false
     @State private var energyContainerCollapsed = false
     @State private var waterContainerCollapsed = false
     
     @Query private var hus: [HabitationalUnitModel]
     
-    init(huId: String, viewModel: DetailHabitationalUnitViewModel, meterCaptureViewModel: MeterCaptureViewModel) {
+    init(huId: String,
+         viewModel: DetailHabitationalUnitViewModel,
+         meterCaptureViewModel: MeterCaptureViewModel,
+         feeCalculationViewModel: FeeCalculationViewModel) {
         self.huId = huId
         self.viewModel = viewModel
         self.meterCaptureViewModel = meterCaptureViewModel
+        self.feeCalculationViewModel = feeCalculationViewModel
         
         if let idu = UUID(uuidString: huId) {
             var descriptor = FetchDescriptor<HabitationalUnitModel>(predicate: #Predicate { $0.id == idu },
@@ -205,8 +210,14 @@ struct DetailHabitationalUnitUIView: View {
                                          body: String(localized: "enter_body"))
                     case .sendWhatsApp:
                         whatsAppSender.send(to: viewModel.phoneNumberTenant, message: "")
-                    default:
-                        print("")
+                    case .registerEnergy:
+                        meterCaptureViewModel.displayMeterCapture(huId: viewModel.huId, service: .energy)
+                    case .registerWater:
+                        meterCaptureViewModel.displayMeterCapture(huId: viewModel.huId,
+                                                                  service: .water)
+                    case .registerGas:
+                        meterCaptureViewModel.displayMeterCapture(huId: viewModel.huId,
+                                                                  service: .gas)
                     }
                 }
             }
@@ -220,6 +231,11 @@ struct DetailHabitationalUnitUIView: View {
                 }
             }
         }
+        .sheet(isPresented: $meterCaptureViewModel.presentMeterCapture) {
+            MeterCaptureUIView(viewModel: meterCaptureViewModel)
+                .presentationDetents([.medium, .fraction(0.45)])
+                .presentationDragIndicator(.visible)
+        }
         .sheet(isPresented: $viewModel.presentRegisterDamageSheet) {
             if let vm = viewModel.damageViewModel {
                 RecordDamageUIView(viewModel: vm)
@@ -229,6 +245,11 @@ struct DetailHabitationalUnitUIView: View {
             if let vm = viewModel.paymentViewModel {
                 RecordPaymentUIView(viewModel: vm)
             }
+        }
+        .sheet(isPresented: $feeCalculationViewModel.presentFeeSheet) {
+            FeeCalculationUIView(viewModel: feeCalculationViewModel)
+                .presentationDetents([.medium, .fraction(0.45)])
+                .presentationDragIndicator(.visible)
         }
         .sheet(isPresented: $viewModel.presentPDFViewer) {
             if let data = viewModel.data, let url = viewModel.shareUrl, let pdfName = viewModel.pdfName {
@@ -262,7 +283,7 @@ struct DetailHabitationalUnitUIView: View {
     
     @ViewBuilder
     private func createMeterSection(meters: [MeterCaptureModel], filteredBy: PublicServices, isExpanded: Binding<Bool>) -> some View {
-        let measures = meters.filter { $0.type == filteredBy }.sorted(by: { $0.date < $1.date})
+        let measures = meters.filter { $0.type == filteredBy }.sorted(by: { $0.date > $1.date})
         
         if !measures.isEmpty {
             DisclosureGroup(isExpanded: isExpanded) {
@@ -290,7 +311,10 @@ struct DetailHabitationalUnitUIView: View {
     private func createPublicServiceButton(meters: [MeterCaptureModel]?, publicService: PublicServices) -> some View {
         if let meters {
             Button {
-                viewModel.calculateFee(meters: meters, publicService: publicService)
+                if viewModel.calculateFee(meters: meters, publicService: publicService) {
+                    feeCalculationViewModel.readingAmount = viewModel.readingAmount
+                    feeCalculationViewModel.presentFeeSheet = true
+                }
             } label: {
                 VStack(spacing: 5) {
                     Image(systemName: publicService.icon)
@@ -404,7 +428,8 @@ struct DetailHabitationalUnitUIView: View {
     return NavigationStack {
         DetailHabitationalUnitUIView(huId: "1234",
                                      viewModel: vm,
-                                     meterCaptureViewModel: DependencyContainer.shared.createMeterCaptureViewModel())
+                                     meterCaptureViewModel: DependencyContainer.shared.createMeterCaptureViewModel(),
+                                     feeCalculationViewModel: DependencyContainer.shared.createFeeCalculationViewModel())
             .modelContainer(container)
             .preferredColorScheme(.dark)
     }

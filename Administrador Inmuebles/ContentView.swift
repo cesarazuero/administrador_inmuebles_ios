@@ -44,8 +44,11 @@ struct ContentView: View {
                         CreateTenantUIView(viewModel: vm)
                     case .detailEstate(let vm, let mcvm):
                         DetailEstateUIView(viewModel: vm, meterCaptureViewModel: mcvm)
-                    case .detailHabitationalUnit(let huId, let vm, let mcvm):
-                        DetailHabitationalUnitUIView(huId: huId, viewModel: vm, meterCaptureViewModel: mcvm)
+                    case .detailHabitationalUnit(let huId, let vm, let mcvm, let fcvm):
+                        DetailHabitationalUnitUIView(huId: huId,
+                                                     viewModel: vm,
+                                                     meterCaptureViewModel: mcvm,
+                                                     feeCalculationViewModel: fcvm)
                     case .settings(let vm):
                         SettingsUIView(viewModel: vm)
                     }

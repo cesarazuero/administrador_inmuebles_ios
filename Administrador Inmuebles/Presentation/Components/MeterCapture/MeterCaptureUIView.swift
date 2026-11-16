@@ -19,25 +19,20 @@ struct MeterCaptureUIView: View {
             Color.clear.frame(height: 10)
             
             TextField(.reading,
-                      text: $viewModel.measure)
+                      text: $viewModel.measure,
+                      prompt: Text(.reading)
+                .foregroundStyle(.gray)
+                .font(.system(size: 16, weight: .regular, design: .rounded)))
             .multilineTextAlignment(.center)
             .keyboardType(.decimalPad)
             .font(.system(size: 16, weight: .regular, design: .rounded))
-            .frame(height: 40)
+            .foregroundStyle(.darkGrayBackground)
+            .frame(width: 160, height: 40)
             .background {
-                RoundedRectangle(cornerRadius: 10).fill(.darkGrayBackground)
+                RoundedRectangle(cornerRadius: 10).fill(.grayBackgroundList)
             }
             
-            DatePicker(.select,
-                       selection: $viewModel.dateSelected,
-                       displayedComponents: [.date]
-            )
-            .datePickerStyle(.compact)
-            .tint(.accentColor)
-            .padding()
-            .background {
-                RoundedRectangle(cornerRadius: 10).fill(.darkGrayBackground)
-            }
+            CustomCompactDatePickerUIView(selectedDate: $viewModel.dateSelected)
             
             Color.clear.frame(height: 5)
             
@@ -46,7 +41,7 @@ struct MeterCaptureUIView: View {
                     viewModel.saveMeter()
                 } label: {
                     Text(viewModel.processing.buttonLabel)
-                        .font(.system(size: 18, weight: .medium, design: .rounded))
+                        .font(.system(size: 18, weight: .bold, design: .rounded))
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(viewModel.processing.tintButton)
@@ -57,7 +52,7 @@ struct MeterCaptureUIView: View {
                     viewModel.presentMeterCapture = false
                 } label: {
                     Text(.close)
-                        .font(.system(size: 18, weight: .medium, design: .rounded))
+                        .font(.system(size: 18, weight: .bold, design: .rounded))
                 }
                 .buttonStyle(.borderedProminent)
                 .buttonSizing(.flexible)

@@ -34,13 +34,14 @@ struct RecordPaymentUIView: View {
                     }
                     // MARK: --------------- PAYMENT DATE ---------------------------
                     Section {
-                        DatePicker(.select,
-                                   selection: $viewModel.createdAt,
-                                   displayedComponents: [.date]
-                        )
-                        .datePickerStyle(.compact)
-                        .tint(.accentColor)
-                        .padding()
+                        HStack {
+                            Text(.select)
+                                .font(.system(size: 16, weight: .regular, design: .rounded))
+                            
+                            Spacer()
+                            
+                            CustomCompactDatePickerUIView(selectedDate: $viewModel.createdAt)
+                        }
                     } header: {
                         HeaderTextUIView(text: .paymentDate)
                     }

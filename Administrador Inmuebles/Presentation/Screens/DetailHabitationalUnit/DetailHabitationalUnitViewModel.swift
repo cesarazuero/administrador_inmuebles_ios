@@ -25,6 +25,7 @@ class DetailHabitationalUnitViewModel {
     var showAlert = false
     var titleAlert: String = ""
     var messageAlert: String = ""
+    var readingAmount: Double = 0.0
     
     init (huId: String, router: Router, huRepository: HabitationalUnitRepositoryProtocol) {
         self.huId = huId
@@ -95,7 +96,7 @@ class DetailHabitationalUnitViewModel {
         }
     }
     
-    func calculateFee(meters: [MeterCaptureModel], publicService: PublicServices) {
+    func calculateFee(meters: [MeterCaptureModel], publicService: PublicServices) -> Bool {
         let measures = meters.filter { $0.type == publicService }.sorted(by: { $0.date < $1.date})
         
         if measures.isEmpty || measures.count < 2 {
@@ -103,11 +104,14 @@ class DetailHabitationalUnitViewModel {
             messageAlert = String(localized: "calculate_fee_error_meters_not_enough")
             showAlert = true
             
-            return
+            return false
         }
         
         let lastMeasure = measures[measures.count - 1]
         let penultimate = measures[measures.count - 2]
-        let readingAmount = lastMeasure.measure - penultimate.measure
+        
+        self.readingAmount = lastMeasure.measure - penultimate.measure
+        
+        return true
     }
 }
