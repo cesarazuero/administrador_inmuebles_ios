@@ -18,20 +18,35 @@ class CreateHabitationalUnitViewModel {
     var messageAlert: String = ""
     var titleAlert: String = ""
     
+    var showAdEditor: Bool = false
+    var hasAd: Bool { adEditorViewModel.hasAd }
+    var isAdValid: Bool { adEditorViewModel.isAdValid }
+    
+    let adEditorViewModel: PromotionalAdEditorViewModel
     let router: Router
     
     init(estate: Estate,
          habitationalUnit: HabitationalUnit = HabitationalUnit(),
          id: String?,
-         router: Router) {
+         router: Router,
+         adEditorViewModel: PromotionalAdEditorViewModel) {
         self.estate = estate
         self.router = router
         self.id = id
         
+        let unit: HabitationalUnit
+        
         if let id = id, let uuId = UUID(uuidString: id), let hu = estate.habitationalUnits?.first(where: { $0.id == uuId }) {
-            self.habitationalUnit = hu
+            unit = hu
         } else {
-            self.habitationalUnit = habitationalUnit
+            unit = habitationalUnit
+        }
+        
+        self.habitationalUnit = unit
+        self.adEditorViewModel = adEditorViewModel
+        //self.adEditorViewModel = PromotionalAdEditorViewModel(habitationalUnit: unit)
+        self.adEditorViewModel.onChange = { [weak self] in
+            self?.checkFormStatus()
         }
     }
     
@@ -44,7 +59,7 @@ class CreateHabitationalUnitViewModel {
     }
     
     func checkFormStatus() {
-        let pass = estate.habitationalUnits?.last?.tenant != nil && !habitationalUnit.name.isEmpty && habitationalUnit.rentAmount != nil
+        let pass = estate.habitationalUnits?.last?.tenant != nil && !habitationalUnit.name.isEmpty && habitationalUnit.rentAmount != nil && (!hasAd || isAdValid)
         btnDoneRole = pass ? .confirm : nil
     }
     
@@ -83,6 +98,7 @@ class CreateHabitationalUnitViewModel {
     }
     
     func saveHabitationalUnit() {
+        adEditorViewModel.commitSessionFiles()
         addDraft()
         router.goBack()
     }
@@ -100,6 +116,8 @@ class CreateHabitationalUnitViewModel {
     }
     
     func goBack() {
+        adEditorViewModel.discardSessionFiles()
+        
         if estate.habitationalUnits?.last?.name == "" && estate.habitationalUnits?.last?.tenant == nil {
             estate.habitationalUnits?.removeLast()
         }

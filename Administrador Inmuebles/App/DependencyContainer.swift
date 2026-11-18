@@ -101,8 +101,9 @@ final class DependencyContainer {
     
     func createHabitationalUnitViewModel(id: String?) -> CreateHabitationalUnitViewModel {
         return CreateHabitationalUnitViewModel(estate: estate,
-                                        id: id,
-                                        router: router)
+                                               id: id,
+                                               router: router,
+                                               adEditorViewModel: createPromotionalAdEditorViewModel(huId: id))
     }
     
     func createTenantViewModel(huId: String?) -> CreateTenantViewModel {
@@ -147,6 +148,10 @@ final class DependencyContainer {
     
     func createFeeCalculationViewModel() -> FeeCalculationViewModel {
         FeeCalculationViewModel()
+    }
+    
+    func createPromotionalAdEditorViewModel(huId: String?) -> PromotionalAdEditorViewModel {
+        PromotionalAdEditorViewModel(huId: huId, estate: estate)
     }
     // MARK: -------------- ESTATE MODIFIERS ------------------------------
     func clearEstate() {

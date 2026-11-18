@@ -20,6 +20,9 @@ class HabitationalUnit: Identifiable, Equatable, Hashable {
     var dateBeginRent: Date
     var documentPDF: Data?
     var documentPDFName: String?
+    var adText: String?
+    var adPhotoFileNames: [String]?
+    var adVideoFileName: String?
     var damages: [Damage]?
     var payments: [Payment]?
     var meterCaptures: [MeterCapture]?
@@ -34,6 +37,9 @@ class HabitationalUnit: Identifiable, Equatable, Hashable {
          dateBeginRent: Date = Date(),
          documentPDF: Data? = nil,
          documentPDFName: String? = nil,
+         adText: String? = nil,
+         adPhotoFileNames: [String]? = nil,
+         adVideoFileName: String? = nil,
          damages: [Damage]? = [],
          payments: [Payment]? = [],
          meterCaptures: [MeterCapture]? = []) {
@@ -47,6 +53,9 @@ class HabitationalUnit: Identifiable, Equatable, Hashable {
         self.dateBeginRent = dateBeginRent
         self.documentPDF = documentPDF
         self.documentPDFName = documentPDFName
+        self.adText = adText
+        self.adPhotoFileNames = adPhotoFileNames
+        self.adVideoFileName = adVideoFileName
         self.damages = damages
         self.payments = payments
         self.meterCaptures = meterCaptures

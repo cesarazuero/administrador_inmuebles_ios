@@ -121,10 +121,46 @@ struct CreateHabitationalUnitUIView: View {
                 } header: {
                     HeaderTextUIView(text: .lease)
                 }
+                
+                // MARK: --------------- PROMOTIONAL AD ---------------------------
+                Section {
+                    Button {
+                        viewModel.showAdEditor = true
+                    } label: {
+                        HStack {
+                            Image(systemName: "megaphone")
+                            
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(viewModel.hasAd ? "ad_edit" : "ad_create")
+                                
+                                if viewModel.hasAd {
+                                    Text("ad_summary \(viewModel.adEditorViewModel.adPhotoURLs.count)")
+                                        .font(.system(size: 12, weight: .regular, design: .rounded))
+                                        .foregroundStyle(viewModel.isAdValid ? Color.secondary : Color.orange)
+                                }
+                            }
+                            
+                            Spacer()
+                            
+                            Image(systemName: "chevron.right")
+                        }
+                    }
+                    .buttonStyle(.plain)
+                } header: {
+                    HeaderTextUIView(text: "ad_title")
+                } footer: {
+                    if viewModel.hasAd && !viewModel.isAdValid {
+                        Text("ad_incomplete")
+                            .foregroundStyle(.orange)
+                    }
+                }
             }
             .fileImporter(isPresented: $viewModel.showFileImporter,
                           allowedContentTypes: [.pdf]) { result in
                 viewModel.attachDocument(result: result)
+            }
+            .sheet(isPresented: $viewModel.showAdEditor) {
+                PromotionalAdEditorUIView(viewModel: viewModel.adEditorViewModel)
             }
             .background(.black)
             .scrollContentBackground(.hidden)
@@ -204,7 +240,8 @@ struct CreateHabitationalUnitUIView: View {
         let huRepository = HabitationalUnitModelRepository(container)
         let vm = CreateHabitationalUnitViewModel(estate: estate,
                                                  id: nil,
-                                                 router: Router())
+                                                 router: Router(),
+                                                 adEditorViewModel: DependencyContainer.shared.createPromotionalAdEditorViewModel(huId: nil))
         CreateHabitationalUnitUIView(viewModel: vm)
             .preferredColorScheme(.dark)
     }

@@ -20,6 +20,9 @@ final class HabitationalUnitModel {
     var dateBeginRent: Date = Date()
     @Attribute(.externalStorage) var documentPDF: Data?
     var documentPDFName: String?
+    var adText: String?
+    var adPhotoFileNames: [String]?
+    var adVideoFileName: String?
     var estateModel: EstateModel?
     
     @Relationship(inverse: \TenantModel.habitationalUnitModel)
@@ -44,6 +47,9 @@ final class HabitationalUnitModel {
          dateBeginRent: Date = Date(),
          documentPDF: Data? = nil,
          documentPDFName: String? = nil,
+         adText: String? = nil,
+         adPhotoFileNames: [String]? = nil,
+         adVideoFileName: String? = nil,
          estateModel: EstateModel? = nil,
          damages: [DamageModel]? = nil,
          payments: [PaymentModel]? = nil,
@@ -59,6 +65,9 @@ final class HabitationalUnitModel {
         self.dateBeginRent = dateBeginRent
         self.documentPDF = documentPDF
         self.documentPDFName = documentPDFName
+        self.adText = adText
+        self.adPhotoFileNames = adPhotoFileNames
+        self.adVideoFileName = adVideoFileName
         self.damages = damages
         self.payments = payments
         self.meterCaptures = meterCaptures

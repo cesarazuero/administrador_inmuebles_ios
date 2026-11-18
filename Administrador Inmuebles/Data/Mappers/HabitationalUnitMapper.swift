@@ -17,6 +17,9 @@ struct HabitationalUnitMapper {
                               dateBeginRent: hu.dateBeginRent,
                               documentPDF: hu.documentPDF,
                               documentPDFName: hu.documentPDFName,
+                              adText: hu.adText,
+                              adPhotoFileNames: hu.adPhotoFileNames,
+                              adVideoFileName: hu.adVideoFileName,
                               damages: hu.damages?.map { DamageMapper.toModel(damage: $0) },
                               meterCaptures: hu.meterCaptures?.map { MeterCaptureMapper.toModel(meterCapture: $0) })
     }
@@ -32,6 +35,9 @@ struct HabitationalUnitMapper {
                                 dateBeginRent: hu.dateBeginRent,
                                 documentPDF: hu.documentPDF,
                                 documentPDFName: hu.documentPDFName,
+                                adText: hu.adText,
+                                adPhotoFileNames: hu.adPhotoFileNames,
+                                adVideoFileName: hu.adVideoFileName,
                                 damages: hu.damages?.map { DamageMapper.toDomain(damage: $0) },
                                 meterCaptures: hu.meterCaptures?.map { MeterCaptureMapper.toDomain(meterCapture: $0) })
     }
